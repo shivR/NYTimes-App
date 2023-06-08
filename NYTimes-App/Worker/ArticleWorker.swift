@@ -10,7 +10,7 @@ import Combine
 typealias ArticleResult = AnyPublisher<ArticleModel, APIError>
 
 protocol ArticleWorkerLogic {
-    func getTopCities() -> ArticleResult
+    func getArticles() -> ArticleResult
 }
 
 final class ArticleWorker: ArticleWorkerLogic {
@@ -20,7 +20,7 @@ final class ArticleWorker: ArticleWorkerLogic {
         self.networkClient = networkClient
     }
 
-    func getTopCities() -> ArticleResult {
+    func getArticles() -> ArticleResult {
         let service = ArticleService(route: .mostviewed)
         return networkClient.startService(service)
     }

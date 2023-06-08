@@ -26,28 +26,22 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:NYTimes-AppTests/NYTimes-App.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5867EAF52A31C340003FB06D"
+               BlueprintIdentifier = "5861BB922A320A9D00882FF3"
                BuildableName = "NYTimes-AppTests.xctest"
                BlueprintName = "NYTimes-AppTests"
-               ReferencedContainer = "container:NYTimes-App.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5867EAFF2A31C340003FB06D"
-               BuildableName = "NYTimes-AppUITests.xctest"
-               BlueprintName = "NYTimes-AppUITests"
                ReferencedContainer = "container:NYTimes-App.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -42,7 +42,7 @@ final class ArticleListViewModel  {
 extension ArticleListViewModel: ArticleListViewModelProtocol {
     func fetchArticles() {
         showIndicator(true)
-        articleWorker.getTopCities()
+        articleWorker.getArticles()
             .receive(on: DispatchQueue.main)
             .sink {[weak self] completion in
                 guard let self = self else { return }
