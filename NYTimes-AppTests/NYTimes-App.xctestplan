@@ -32,6 +32,13 @@
         "identifier" : "5861BB922A320A9D00882FF3",
         "name" : "NYTimes-AppTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:NYTimes-App.xcodeproj",
+        "identifier" : "58FFCC452A32116A00545EF3",
+        "name" : "NYTimes-AppUITests"
+      }
     }
   ],
   "version" : 1
