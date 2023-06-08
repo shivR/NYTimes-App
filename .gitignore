@@ -1,0 +1,15 @@
+### macOS ###
+*.DS_Store
+
+# CocoaPods 
+Pods/
+
+# fastlane
+
+*.ipa
+*.dSYM.*
+
+*.xcbkptlist
+*.xcworkspacedata
+*.xcuserstate
+NYTimes-App.xcworkspace/xcshareddata
